@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yicheng's Website</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/5f27cc94b9.js" crossorigin="anonymous"></script>
+
+    <!-- CSS animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+    <header class="name-header text-white text-decoration-none">
+        <div class="container text-center">
+          <h1 class="fw-bolder animate__animated animate__heartBeat animate__delay-1s animate__slow">Yicheng Shen</h1>
+        </div>
+    </header>
+
+    <nav class="sticky-top">
+        <ul class="nav nav-justified nav-menu">
+            <a class="nav-link href-item center-underline" href="#about">About</a>
+            <a class="nav-link href-item center-underline" href="#publications">Publications</a>
+            <a class="nav-link href-item center-underline" href="#projects">Projects</a>
+            <a class="nav-link href-item center-underline" href="#news">News</a>
+        </ul>
+    </nav>
+  
+    <div class="container">
+    <div class="row">
+    <div class="col-10 mx-auto">
+
+        <!-- About section -->
+        <section id="about" class="horizontal-section">
+            <div class="row">
+                <div class="col-sm-8">
+                    <header>About</header>
+                    <p class="fw-normal">Hi! My name is Yicheng Shen. I also go by Mark. 
+                    I am a student at Boston College majoring in Computer Science and minoring in Finance. 
+                    I work as undergraduate TA and RA for the CS department.
+                    My research interest is about distributed machine learning.</p>
+                    <a href="https://github.com/YichengShen" class="fs-3 href-item" target="_blank"><i class="fab fa-github"></i></a> 
+                    <span class="fs-3"> | </span>
+                    <a href="https://www.linkedin.com/in/yichengshen" class="fs-3 href-item" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <span class="fs-3"> | </span>
+                    <a href="https://twitter.com/shen_yicheng" class="fs-3 href-item" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            
+                <div class="col-sm-4">
+                    <img src="assets/images/my_photo.JPG" class="my-img mx-auto d-block mt-2" alt="alternatetext">
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications section -->
+        <section id="publications">
+        
+            <header>Publications</header>
+            <div class="row">
+                <div class="col">
+                    <h5 class="fw-bold">CarML: Distributed Machine Learning in Vehicular Clouds</h5>
+                    <span class="badge bg-primary bg-custom bg-poster">poster</span>
+                    <span class="badge bg-primary bg-custom bg-research">research</span>
+                    <p class="fw-light">Authors: Anran Du, Yicheng Shen, and Lewis Tseng</p>
+                    <p class="fw-light">Conference: MobiCom 2020: The 26th Annual International Conference on Mobile Computing and Networking</p>
+                    <a href="https://dl.acm.org/doi/10.1145/3372224.3418168" class="href-item text-decoration-none me-3" target="_blank"><i class="fas fa-file-alt"></i> Paper</a>
+                    <a href="https://youtu.be/EdnEosVmR4Q" class="href-item text-decoration-none" target="_blank"><i class="fas fa-video"></i> Video</a>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <h5 class="fw-bold">Enabling Pervasive Federated Learning using Vehicular Virtual Edge Servers</h5>
+                    <span class="badge bg-primary bg-custom bg-paper">paper</span>
+                    <span class="badge bg-primary bg-custom bg-research">research</span>
+                    <p class="fw-light">Authors: Anran Du, Yicheng Shen, Lewis Tseng, Takamasa Higuchi, Seyhan Ucar, and Onur Altintas</p>
+                    <p class="fw-light">Conference: PerCom Work in Progress on Pervasive Computing and Communications 2021</p>
+                </div>
+            </div>
+                
+        </section>
+
+        <section>
+            <div class="row">
+                <!-- Projects Section -->
+                <div id="projects" class="col-sm-8">
+                    <header>Projects</header>
+                    <!-- Project 1 -->
+                    <h5 class="fw-bold">
+                        <a href="eval_system.html" class="href-item text-decoration-none center-underline">Eagles Peer Evaluation System</a>
+                    </h5>
+                    <p class="fw-lighter">Spring 2020</p>
+                    <p class="fw-light">
+                        A software that allows professors to create peer evaluations and students to evaluate each other.
+                        Professors can easily manage courses, teams, and created peer evaluations. 
+                        Students can fill out peer evaluations. 
+                        Professors will see aggregated results once students finish their peer evaluations.
+                        Students will see their score and comments once professors release the results.
+                    </p>
+                    <br>
+                    <!-- Project 2 -->
+                    <h5 class="fw-bold">
+                        <a href="alphagame.html" class="href-item text-decoration-none center-underline">AlphaGame</a>
+                    </h5>
+                    <p class="fw-lighter">Fall 2020</p>
+                    <p class="fw-light">
+                        A project that utilizes reinforcement learning algorithms as cores of AI to play simple games. 
+                    </p>
+                    <p><a href="assets/files/AlphaGame.pdf" class="href-item text-decoration-none center-underline" target="_blank"><i class="fas fa-file-alt"></i> Paper</a></p>
+                    <br>
+                    <!-- Project 3 -->
+                    <h5 class="fw-bold">
+                        <a href="carspeech.html" class="href-item text-decoration-none center-underline">CarSpeech</a>
+                    </h5>
+                    <p class="fw-lighter">Fall 2020</p>
+                    <p class="fw-light">
+                        A NLP project that trains CNN to recognize speech in noisy environment in cars. 
+                        CarSpeech focuses on comparing results of different ML models under various noise levels.
+                    </p>
+                    <a href="https://yichengshen.github.io/car_speech/" class="href-item text-decoration-none center-underline" target="_blank"><i class="fas fa-book"></i> Documentation</a>
+                </div>
+
+                <!-- News Section -->
+                <div id="news" class="col-sm-4 ps-4">
+                    <header>News</header>
+                    <p class="fw-light lh-sm">TA for Software Engineering</p>
+                    <p class="fw-lighter lh-sm">Feburary 2021</p>
+                    <br>
+                    <p class="fw-light lh-sm">Received ACM Student Research Competition award</p>
+                    <p class="fw-lighter lh-sm">September 2020</p>
+                    <br>
+                    <p class="fw-light lh-sm">TA for Algorithms</p>
+                    <p class="fw-lighter lh-sm">January 2020</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    </div>
+    </div>
+
+    <footer class="py-3 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Yicheng Shen 2021</p>
+        </div>
+    </footer>
+</body>
+</html>
